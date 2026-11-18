@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Search and Filter</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Product Catalogue</h2>
+
+        <!-- Search and Category Filter -->
+        <div class="filter-section">
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Search by name"
+            >
+
+            <select id="category">
+                <option value="All">All categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Stationery">Stationery</option>
+                <option value="Fashion">Fashion</option>
+            </select>
+
+        </div>
+
+        <!-- Product Count -->
+        <p id="count"></p>
+
+        <!-- Products Display -->
+        <div class="product-grid" id="productList"></div>
+
+    </div>
+s
+    <script src="script02.js"></script>
+
+</body>
+</html>
